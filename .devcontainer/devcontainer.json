@@ -1,0 +1,9 @@
+{
+	"name": "devcontainer",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	// "image": "mcr.microsoft.com/devcontainers/rust:1-1-bullseye"
+    "build": {
+        // Path is relative to the devcontainer.json file.
+        "dockerfile": "Dockerfile"
+    }
+}

@@ -1508,6 +1508,7 @@ version = "0.1.1"
 dependencies = [
  "colored",
  "openssl",
+ "openssl-probe",
  "taplo",
  "taplo-common",
  "toml",
